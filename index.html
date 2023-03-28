@@ -195,7 +195,7 @@
   const ipt = document.querySelector('#search-input')
   const btn = document.querySelector('#search-btn')
   const layer = document.querySelector('#search-layer')
-  const posts = JSON.parse(`[{"title":"Hello World","path":"2023/03/28/hello-world/"},{"title":"那时花开","path":"2023/03/28/第一篇文章/"}]`)
+  const posts = JSON.parse(`[{"title":"那时花开","path":"2023/03/28/第一篇文章/"},{"title":"Hello World","path":"2023/03/28/hello-world/"}]`)
   ipt.addEventListener('keyup', e => {
     if (e.key === 'Enter') {
       handleSearch()
@@ -241,8 +241,8 @@
       <div class="main-left--intro">
         <p class="main-left--name">轩邈</p>
         <div class="main-left--tags">
-          <span class="main-left--tag">不想出门</span>
-          <span class="main-left--tag">好想睡觉</span>
+          <span class="main-left--tag">不想出门...</span>
+          <span class="main-left--tag">好想睡觉...</span>
         </div>
       </div>
     </div>
